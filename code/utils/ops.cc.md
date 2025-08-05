@@ -12,7 +12,7 @@ data:
   attributes:
     links: []
   bundledCode: "#line 1 \"code/template_long.cc\"\n///////////////////////////////////////////////////////////////\n\
-    // Long template from: https://github.com/Zeldacrafter/CompProg\n//\n// Feature\
+    // Long template from: https://github.com/AlexanderPfanne/CompProg\n//\n// Feature\
     \ list:\n// * C++14 compatibility.\n// * Various 'define'-shorthands and typedefs.\n\
     // * Output stream that is only active with 'DEBUG'-flag set.\n// * Input and\
     \ output stream operators for...\n//   * any container with 'begin' and 'end'\
@@ -479,7 +479,7 @@ data:
   isVerificationFile: false
   path: code/utils/ops.cc
   requiredBy: []
-  timestamp: '2024-04-19 13:55:53+02:00'
+  timestamp: '2025-08-05 22:45:00+02:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: code/utils/ops.cc

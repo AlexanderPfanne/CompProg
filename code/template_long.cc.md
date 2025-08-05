@@ -11,10 +11,10 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links:
-    - https://github.com/Zeldacrafter/CompProg
+    - https://github.com/AlexanderPfanne/CompProg
     - https://xkcd.com/541/
   bundledCode: "#line 1 \"code/template_long.cc\"\n///////////////////////////////////////////////////////////////\n\
-    // Long template from: https://github.com/Zeldacrafter/CompProg\n//\n// Feature\
+    // Long template from: https://github.com/AlexanderPfanne/CompProg\n//\n// Feature\
     \ list:\n// * C++14 compatibility.\n// * Various 'define'-shorthands and typedefs.\n\
     // * Output stream that is only active with 'DEBUG'-flag set.\n// * Input and\
     \ output stream operators for...\n//   * any container with 'begin' and 'end'\
@@ -150,7 +150,7 @@ data:
     \ T>\nbool operator<(const T& e, const set<T>& s) {\n  return static_cast<bool>(s.count(e));\n\
     }\n"
   code: "///////////////////////////////////////////////////////////////\n// Long\
-    \ template from: https://github.com/Zeldacrafter/CompProg\n//\n// Feature list:\n\
+    \ template from: https://github.com/AlexanderPfanne/CompProg\n//\n// Feature list:\n\
     // * C++14 compatibility.\n// * Various 'define'-shorthands and typedefs.\n//\
     \ * Output stream that is only active with 'DEBUG'-flag set.\n// * Input and output\
     \ stream operators for...\n//   * any container with 'begin' and 'end' iterator.\n\
@@ -290,7 +290,7 @@ data:
   path: code/template_long.cc
   requiredBy:
   - code/utils/ops.cc
-  timestamp: '2024-04-19 13:55:53+02:00'
+  timestamp: '2025-08-05 22:45:00+02:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: code/template_long.cc
