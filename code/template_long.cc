@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////
-// Long template from: https://github.com/Zeldacrafter/CompProg
+// Long template from: https://github.com/AlexanderPfanne/CompProg
 //
 // Feature list:
 // * C++14 compatibility.
