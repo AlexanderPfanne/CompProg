@@ -43,8 +43,9 @@ data:
     \ \\e[33m\" << dvarimpl(__VA_ARGS__)\n#define dvarc(...) \" \\e[36m\" << dvarimpl(__VA_ARGS__)\n\
     #define dvari(...) \" \\e[7m\" << dvarimpl(__VA_ARGS__)\n\n///////////////////////////////////////////////////////////////\n\
     // Utility functions.\n///////////////////////////////////////////////////////////////\n\
-    \nnamespace impl {\n  template <typename T, typename F, size_t... Is>\n  F for_each(T&\
-    \ t, F f, index_sequence<Is...>) {\n    auto l = { (f(get<Is>(t), Is), 0)... };\n\
+    \n#define TRY(do_stuff) try { do_stuff } catch(std::exception& e) {}\n\nnamespace\
+    \ impl {\n  template <typename T, typename F, size_t... Is>\n  F for_each(T& t,\
+    \ F f, index_sequence<Is...>) {\n    auto l = { (f(get<Is>(t), Is), 0)... };\n\
     \    (void) l;\n    return f;\n  }\n}\n\ntemplate <typename... Ts, typename F>\n\
     F for_each(tuple<Ts...>& t, F f) {\n  return impl::for_each(t, f, make_index_sequence<sizeof...(Ts)>{});\n\
     }\n\ntemplate <typename... Ts, typename F>\nF for_each(const tuple<Ts...>& t,\
@@ -479,7 +480,7 @@ data:
   isVerificationFile: false
   path: code/utils/ops.cc
   requiredBy: []
-  timestamp: '2025-08-05 22:45:00+02:00'
+  timestamp: '2025-12-05 00:09:25+01:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: code/utils/ops.cc
