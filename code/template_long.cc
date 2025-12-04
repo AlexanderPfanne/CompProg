@@ -65,6 +65,8 @@ bool ckmax(T& a, const T& b) { return a < b ? a = b, true : false; }
 // Utility functions.
 ///////////////////////////////////////////////////////////////
 
+#define TRY(do_stuff) try { do_stuff } catch(std::exception& e) {}
+
 namespace impl {
   template <typename T, typename F, size_t... Is>
   F for_each(T& t, F f, index_sequence<Is...>) {
